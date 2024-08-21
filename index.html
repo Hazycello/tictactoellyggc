@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Space Tic-Tac-Toe</h1>
+    </header>
+    <main>
+        <section id="game-mode">
+            <button id="human-vs-human">Human vs. Human</button>
+            <button id="ai-vs-human">AI vs. Human</button>
+        </section>
+        <section id="ai-difficulty" class="hidden">
+            <button class="difficulty" data-level="1">Easy</button>
+            <button class="difficulty" data-level="2">Medium</button>
+            <button class="difficulty" data-level="3">Impossible</button>
+        </section>
+        <section id="game-board" class="hidden">
+            <!-- Game board will be generated here -->
+        </section>
+    </main>
+    <footer>
+        <p>Created by HazyCello</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
